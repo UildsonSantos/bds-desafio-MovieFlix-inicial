@@ -1,0 +1,21 @@
+.main-nav {
+  padding: 18px;
+  min-height: 68px;
+  text-align: center;
+}
+
+.nav-login-logout {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 98px;
+  height: 30px;
+  align-items: center;
+}
+
+.nav-login-logout a{
+  font-weight: bold;
+  font-size: 14px;
+}
+.nav-logo-text:hover {
+ font-size: 24px;
+}

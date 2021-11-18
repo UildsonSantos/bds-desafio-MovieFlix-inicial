@@ -1,0 +1,51 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.admin-banner-container {
+  display: none;
+  color: #ffffff;
+}
+
+.admin-banner-container h1 {
+  margin: 43px 0 19px;
+  font-size: 48px;
+}
+
+.admin-banner-container p {
+  max-width: 320px;
+  font-size: 22px;
+  margin-bottom: 51px;
+}
+
+.admin-content {
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  .admin-container {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 652px;
+    padding: 38px 105px 41px 97px;
+  }
+  .admin-banner-container {
+    display: unset;
+    width: 40%;
+  }
+
+  .admin-banner-container svg {
+    margin-left: -50px;
+    width: 100%;
+    height: auto;
+  }
+  .admin-form-container {
+    width: 40%;
+  }
+
+  .admin-content {
+    flex: 1;
+  }
+}

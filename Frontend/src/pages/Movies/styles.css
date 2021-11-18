@@ -1,0 +1,24 @@
+.movie-container {
+  padding: 18px;
+}
+
+.movie-container h1 {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.movie-container a {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 30px;
+  display: block;
+}
+.nav-logo-text:hover {
+  font-size: 24px;
+}
+
+@media (min-width: 1200px) {
+  .movie-container {
+    padding: 40px;
+  }
+}
