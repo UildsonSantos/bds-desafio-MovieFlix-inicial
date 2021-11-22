@@ -14,7 +14,7 @@
 ## STEP 1: Download this repository
 
 ```bash
-  git clone https://github.com/UildsonSantos/bds-desafio-MovieFlix.git
+  git clone https://github.com/UildsonSantos/bds-desafio-MovieFlix-inicial.git
 ```
 
 ## STEP 2: Start the Backend
